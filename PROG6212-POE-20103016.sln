@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlannerLibrary", "PlannerLibrary\PlannerLibrary.csproj", "{BADF8A18-B1C0-48DF-8CA6-96AD01BAEAC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlannerWebApp", "PlannerWebApp\PlannerWebApp.csproj", "{FD0F859B-99A3-4F93-968D-DB40AECCB43C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADF8A18-B1C0-48DF-8CA6-96AD01BAEAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADF8A18-B1C0-48DF-8CA6-96AD01BAEAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADF8A18-B1C0-48DF-8CA6-96AD01BAEAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADF8A18-B1C0-48DF-8CA6-96AD01BAEAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0F859B-99A3-4F93-968D-DB40AECCB43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0F859B-99A3-4F93-968D-DB40AECCB43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0F859B-99A3-4F93-968D-DB40AECCB43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0F859B-99A3-4F93-968D-DB40AECCB43C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7112626E-6D91-4BED-9C42-6610E6EB1324}
+	EndGlobalSection
+EndGlobal
