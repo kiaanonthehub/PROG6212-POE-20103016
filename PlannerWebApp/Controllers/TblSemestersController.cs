@@ -53,7 +53,7 @@ namespace PlannerWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SemesterId,StartDate,NumberOfWeeks")] Semster semester)
+        public async Task<IActionResult> Create([Bind("StartDate,NumberOfWeeks")] Semster semester)
         {
             if (ModelState.IsValid)
             {

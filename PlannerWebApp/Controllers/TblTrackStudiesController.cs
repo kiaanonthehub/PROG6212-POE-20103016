@@ -98,7 +98,7 @@ namespace PlannerWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TrackStudiesId,HoursWorked,DateWorked,WeekNumber,SemesterId,StudentNumber,ModuleId")] TblTrackStudy tblTrackStudy)
+        public async Task<IActionResult> Edit(int id, [Bind(",HoursWorked,DateWorked,ModuleId")] TblTrackStudy tblTrackStudy)
         {
             if (id != tblTrackStudy.TrackStudiesId)
             {
